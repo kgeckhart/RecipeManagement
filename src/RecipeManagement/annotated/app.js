@@ -1,4 +1,4 @@
-﻿(function () {
+(function () {
     'use strict';
 
     angular.module('recipesApp', [
@@ -26,5 +26,6 @@
                 controller: 'RecipesDeleteController'
             });
     }
+    config.$inject = ["$routeProvider", "$locationProvider"];
 
 })();
