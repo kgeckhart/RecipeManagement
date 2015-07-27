@@ -11,7 +11,7 @@ namespace RecipeManagement.Repository
     {
         private IDictionary<int, Recipe> _recipes = new Dictionary<int, Recipe>
         {
-            { 1, new Recipe(1, "Honey Lime Sriracha Chicken", new Uri("http://www.handletheheat.com/honey-lime-sriracha-chicken/")) }
+            { 1, new Recipe(1, "Honey Lime Sriracha Chicken", "http://www.handletheheat.com/honey-lime-sriracha-chicken/") }
         };
         private int _idCount = 1;
         private object _lock = new object();

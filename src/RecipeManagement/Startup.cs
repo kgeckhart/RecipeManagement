@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNet.Builder;
 using Microsoft.Framework.DependencyInjection;
+using Nest;
 using RecipeManagement.Models;
 using RecipeManagement.Repository;
 
@@ -11,7 +12,8 @@ namespace RecipeManagement
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
-            services.AddSingleton(typeof(IRepository<Recipe>), typeof(InMemoryRecipeRepository));
+            services.AddSingleton<IRepository<Recipe>, ElasticSearchRecipeRepository>();
+            
         }
 
         public void Configure(IApplicationBuilder app)
