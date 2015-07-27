@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7425B5AE-321F-4255-AEB8-1124F556E162}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8DC1086C-0A81-4463-BDB1-CE482FDE19E3}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "RecipeManagement", "src\RecipeManagement\RecipeManagement.xproj", "{A6955E6A-DC04-4F63-97DF-0E435DFD53C5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A6955E6A-DC04-4F63-97DF-0E435DFD53C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6955E6A-DC04-4F63-97DF-0E435DFD53C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6955E6A-DC04-4F63-97DF-0E435DFD53C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6955E6A-DC04-4F63-97DF-0E435DFD53C5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A6955E6A-DC04-4F63-97DF-0E435DFD53C5} = {7425B5AE-321F-4255-AEB8-1124F556E162}
+	EndGlobalSection
+EndGlobal
